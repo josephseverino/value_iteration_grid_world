@@ -9,14 +9,14 @@
 </span>
 
 
-#### Policy-Iteration
+### Policy-Iteration
 
 <div align="center">
   <img src="largegamma1.png" />
 </div>
 
 
-#### Value-Iteration 
+### Value-Iteration 
 
 <div align="center">
   <img src="valueiterationgraph.png" />
