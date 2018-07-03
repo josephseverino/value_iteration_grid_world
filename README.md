@@ -24,8 +24,13 @@
 
 ### How Does Gamma Change Convergence?
 
-<span style="font-family:Papyrus"> We can see from the graphs below value-iteration converges on the optimal policy much faster than policy-iteration. This should be intuitive becuase the agent is not randoming changing the policy and waiting for value converges to compare values. Value iteration is comparing actions at given states immediately. Thus, it will converge much faster than policy-iteration. Below you can see that it only takes around 35 total iterations to fully converge on an optimal policy and that it only changes policies 4 times. While Policy-iteration changes policies 6 times (count peaks plus convergence to zero) and computes over 500 iterations to get the same optimal policy with the same values at each state.
+<span style="font-family:Papyrus"> Compared to larger value of gamma in the previous comparison, gamma = .01 shows to converge faster than larger values of gamma. Having too small of a gamma could also change the policy. That also needs to be considered. The reason for this is gamma is your discount rate. Larger values are meant to reward larger amounts further in the future while smaller values of gamma look for acheiving smaller rewards sooner. You can look at similiar to investors would rather have $1000 today than $10,000 30 years from now. Depending on when you what reward your agent in a given space you need to change gamma accordingly. 
 </span>
+
+
+<div align="center">
+  <img src="small_gamma.png" />
+</div>
 
 ## Conclusion
 
