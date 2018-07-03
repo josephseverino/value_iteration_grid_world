@@ -12,7 +12,7 @@
 ### Policy-Iteration
 
 <div align="center">
-  <img src="largegamma1.png" />
+  <img src="policyiterationgraph.png" />
 </div>
 
 
