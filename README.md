@@ -34,6 +34,6 @@
 
 ## Conclusion
 
-<span style="font-family:Papyrus"> We can see from the graphs below value-iteration converges on the optimal policy much faster than policy-iteration. This should be intuitive becuase the agent is not randoming changing the policy and waiting for value converges to compare values. Value iteration is comparing actions at given states immediately. Thus, it will converge much faster than policy-iteration. Below you can see that it only takes around 35 total iterations to fully converge on an optimal policy and that it only changes policies 4 times. While Policy-iteration changes policies 6 times (count peaks plus convergence to zero) and computes over 500 iterations to get the same optimal policy with the same values at each state.
+<span style="font-family:Papyrus"> A few take ways from this experiment is that Value-iteration is quicker to converge than Policy-iteration. This is obvious retrospectively, since we aren't wasting our time changing the entire policy and calculating it's value function each time. Instead, we are jumping right to the punch-line and maximizing values and actions directly. The other interesting thing we discovered here was how gamma influenced the agent. Larger values of gamma converged slower but care more about later and larger rewards, while smaller gamma's seek quicker but lower rewards. Consequently, larger gamma's are good at finding rewards in the far off future (infinite as gamma increases).
 </span>
 
