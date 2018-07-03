@@ -7,11 +7,17 @@
 ### Policy vs Value Iteration
 <span style="font-family:Papyrus"> We can see from the graphs below value-iteration converges on the optimal policy much faster than policy-iteration. This should be intuitive becuase the agent is not randoming changing the policy and waiting for value converges to compare values. Value iteration is comparing actions at given states immediately. Thus, it will converge much faster than policy-iteration. Below you can see that it only takes around 35 total iterations to fully converges on an optimal policy and that only changes policies 4 times. 
 </span>
+
+
 #### Policy-Iteration
+
 <div align="center">
   <img src="largegamma1.png" />
 </div>
-#### Value-Iteration   
+
+
+#### Value-Iteration 
+
 <div align="center">
   <img src="valueiterationgraph.png" />
 </div>
